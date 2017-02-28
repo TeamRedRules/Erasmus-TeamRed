@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">School app</string>
+    <string name="title_activity_germany">Germany</string>
+    <string name="title_activity_germany_location">"BBS-Donnersbergkreis "</string>
+    <string name="title_activity_it_location">IT_location</string>
+    <string name="title_activity_it_picture">IT_picture</string>
+    <string name="title_activity_it_meal">IT_meal</string>
+    <string name="title_activity_pl_history">PL_history</string>
+    <string name="title_activity_pl_discuss">PL_discuss</string>
+    <string name="events">Events</string>
+    <string name="Hello_world">Hello word</string>
+</resources>

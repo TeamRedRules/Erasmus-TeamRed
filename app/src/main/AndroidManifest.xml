@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.bbs_donnersbergkreis.www.schoolapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Italy.Italy" />
+        <activity android:name=".Czech.Czech" />
+        <activity android:name=".UK.UK" />
+        <activity android:name=".Poland.Poland" />
+        <activity android:name=".Germany.Germany_menu" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+
+        <activity android:name=".Germany.Germany_location" />
+        <activity android:name=".Germany.Germany_History_of_school" />
+        <activity android:name=".Germany.Germany_Pictures" />
+        <activity android:name=".Germany.Germany_List_of_graduates" />
+        <activity android:name=".Germany.Germany_Discussion_blog" />
+        <activity android:name=".Germany.Germany_school_meal" />
+        <activity android:name=".Germany.Germany_events" />
+        <activity android:name=".Czech.Czech_Location" />
+        <activity android:name=".Czech.History_school" />
+        <activity android:name=".Czech.CZE_Pictures" />
+        <activity android:name=".Czech.List_CZE" />
+        <activity android:name=".Czech.CZE_discussion" />
+        <activity android:name=".Czech.CZE_meal" />
+        <activity android:name=".Czech.CZE_Events" />
+        <activity android:name=".UK.UK_location" />
+        <activity android:name=".UK.UK_history" />
+        <activity android:name=".UK.UK_pictures" />
+        <activity android:name=".UK.UK_list" />
+        <activity android:name=".UK.UK_discussion" />
+        <activity android:name=".UK.UK_meal" />
+        <activity android:name=".UK.UK_events" />
+        <activity
+            android:name=".Italy.IT_location"
+            android:label="@string/title_activity_it_location"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Italy.IT_history" />
+        <activity android:name=".Italy.IT_pictures" />
+        <activity android:name=".Italy.IT_list" />
+        <activity android:name=".Italy.IT_discuss" />
+        <activity android:name=".Italy.IT_Meal" />
+        <activity android:name=".Italy.IT_events" />
+        <activity android:name=".Poland.PL_Location" />
+        <activity
+            android:name=".Poland.PL_history"
+            android:label="@string/title_activity_pl_history"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Poland.PL_pictures" />
+        <activity android:name=".Poland.PL_list" />
+        <activity android:name=".Poland.PL_school" />
+        <activity android:name=".Poland.PL_events" />
+        <activity android:name=".Poland.PL_discuss"></activity>
+    </application>
+
+</manifest>
